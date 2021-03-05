@@ -1,0 +1,36 @@
+/* .control {
+    display: table-row;
+}
+
+.control .label, .control .content {
+    display: table-column;
+}
+
+form {
+    display: table;
+} */
+
+.bold, .label {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+table {
+    width: 100%;
+}
+table tr td {
+    padding-bottom: 10px;
+    text-align: start;
+    vertical-align: top;
+}
+
+.center {
+    text-align: center;
+}
+
+.radio-btn-input {
+    padding-right: 15px;
+}
+
+input[type='text'], input[type='number'], input[type='email'], textarea {
+    width: 400px;
+}

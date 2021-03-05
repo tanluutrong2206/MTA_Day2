@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" col="IE=edge">
+    <meta name="viewport" col="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="book1.css" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+    <h2 class="title center">Sell your item hear</h2>
+    <table>
+        <form>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="label">Item title</div>
+                    </td>
+                    <td>
+                        <div class="col">
+                            <div class="label">Here type the title of your book</div>
+                            <input name="title" type="text"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Item description</div>
+                    </td>
+                    <td>
+                        <div class="col">
+                            <div class="label">Describe the book details, here like Author, what the book is all about
+                                etc.</div>
+                            <div class="label">A good description os important becaise the buyers will rea it bedire
+                                they buy your
+                                items</div>
+                            <textarea name="description" rows="3"></textarea>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Item category</div>
+                    </td>
+                    <td>
+                        <div class="col">
+                            <div class="label">Select to which category your item belongs</div>
+                            <input type="radio" name="category" class="radio-btn-input">Kids
+                            <input type="radio" name="category" class="radio-btn-input">Sofware
+                            <input type="radio" name="category" class="radio-btn-input">Engineering
+                            <br>
+                            <input type="radio" name="category" class="radio-btn-input">Medical
+                            <input type="radio" name="category" class="radio-btn-input">Mythodology
+                            <input type="radio" name="category" class="radio-btn-input">Fitness
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Currency</div>
+                    </td>
+                    <td>
+                        <div class="col">
+                            <div class="label">All amount will use this currency</div>
+                            <select name="currency">
+                                <option value="usd">USD</option>
+                                <option value="euro">Euro</option>
+                                <option value="vnd">VND</option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Price</div>
+                    </td>
+                    <td>
+                        <div class="col">
+                            <div class="label">A buyer will purchase the item at this price</div>
+                            <input name="price" type="number" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Quantity</div>
+                    </td>
+                    <td>
+                        <div class="col">
+                            <div class="label">Mention the quantity below, you wnat each buyer to buy</div>
+                            <input name="quantity" type="number" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Payment charges</div>
+                    </td>
+                    <td>
+                        <div class="col">
+                            <div class="label">Here mention the moe of payment you would prefer to receive</div>
+                            <input name="paymnet" type="checkbox" class="payment-cbx" />Cheque
+                            <input name="paymnet" type="checkbox" class="payment-cbx" />Draft
+                            <input name="paymnet" type="checkbox" class="payment-cbx" />Credit Card
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="bold">
+                        <input name="agree" type="checkbox" class="payment-cbx" />I have read an agree to the terms an
+                        condition of
+                        Creative drago.com
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="center">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </tbody>
+        </form>
+    </table>
+
+</body>
+
+</html>

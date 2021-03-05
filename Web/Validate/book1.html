@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" col="IE=edge">
+    <meta name="viewport" col="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="book1.css" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+    <h2 class="title">Please, do our ITT APTECH SỦVEY</h2>
+    <table>
+        <form id="form">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="label">Your Name</div>
+                    </td>
+                    <td>
+                        <input name="name" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Your Email</div>
+                    </td>
+                    <td>
+                        <input name="email" type="email"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Your Batch</div>
+                    </td>
+                    <td>
+                        <select name="batch">
+                            <option value="t0503h">T0503H</option>
+                            <option value="t0503k">T0503K</option>
+                            <option value="t0503l">T0503L</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Modules you learned</div>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="moduleLearned" class="radio-btn-input">CF
+                        <input type="checkbox" name="moduleLearned" class="radio-btn-input">C
+                        <input type="checkbox" name="moduleLearned" class="radio-btn-input">HTML
+                        <input type="checkbox" name="moduleLearned" class="radio-btn-input">Dream Ware
+                        <input type="checkbox" name="moduleLearned" class="radio-btn-input">SQL
+                        <input type="checkbox" name="moduleLearned" class="radio-btn-input">ASP
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Your current module</div>
+                    </td>
+                    <td>
+                        <select name="currentModule">
+                            <option value="CF">CF</option>
+                            <option value="C">C</option>
+                            <option value="HTML">HTML</option>
+                            <option value="SQL">SQL</option>
+                            <option value="ASP">ASP</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Modules you like most</div>
+                    </td>
+                    <td>
+                        <input type="radio" name="module" class="radio-btn-input">CF
+                        <input type="radio" name="module" class="radio-btn-input">C
+                        <input type="radio" name="module" class="radio-btn-input">HTML
+                        <input type="radio" name="module" class="radio-btn-input">Dream Ware
+                        <input type="radio" name="module" class="radio-btn-input">SQL
+                        <input type="radio" name="module" class="radio-btn-input">ASP
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="label">You use</div>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="used" class="radio-btn-input">eBooks
+                        <input type="checkbox" name="used" class="radio-btn-input">IT Websites
+                        <input type="checkbox" name="used" class="radio-btn-input">Magazines
+                        <input type="checkbox" name="used" class="radio-btn-input">Aptech library
+                        <input type="checkbox" name="used" class="radio-btn-input">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">Your comment</div>
+                    </td>
+                    <td>
+                        <textarea cols="3" name="comment"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="">
+                        <button type="submit" onclick="return validate()">Complete your survey</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </tbody>
+        </form>
+    </table>
+
+</body>
+
+<script type="text/javascript" src="book1.js"></script>
+</html>
